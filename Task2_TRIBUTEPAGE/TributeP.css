@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(55, 42, 51);
+    margin:0 25%;
+    font-family:cursive;
+    
+}
+
+#title{
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(160, 3, 3);
+    font-size:3em;
+    margin-left: 5%;
+    
+}
+
+img{
+    display: center;
+    width: 80%;
+    margin-left:12%;
+    box-shadow: rgba(37, 36, 37, 0.478) 5px 5px 5px 15px;
+
+}
+
+#img-caption{
+    font-size: 17px;
+    padding-left: 1%;
+}
+
+div#tribute-info{
+    font-size: 20px;
+    background-color:rgba(19, 13, 13, 0.722);
+    box-shadow: 20px 20px 15px rgb(186, 160, 160);
+    padding:20px 15px;
+    margin-top:20px;
+}
+
+h1.title{
+    color:white;
+    text-align:center;
+    text-shadow: 5px 5px 10px black;
+}
+
+h2.title{
+    color: azure;
+    text-align:justify;
+    text-shadow: 5px 5px 10px burlywood;
+}

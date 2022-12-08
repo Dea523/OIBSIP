@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="CalciStyle.css">
+</head>
+<body>
+
+    <div class="wrap">
+        <form name="calci">
+        <h1 style="color: rgb(31, 14, 14); padding-left:170px;">CASI</h2>
+                <input type="text" name="display" placeholder="Enter here">
+                <br>
+                <br>
+
+                <input type="button" value="(" onclick="calci.display.value+='('" id="bracket">
+                <input type="button" value=")" onclick="calci.display.value+=')'" id="bracket">
+                <!-- <input type="button" value="ans" onclick="cal.display.value=eval(cal.display.value)" id="col"> -->
+                <!-- <input type="button" value="clear" onclick="cal.display.value=event(cal.display.value)" id="col"> -->
+                <!-- <input type="button" value="del" onclick="cal.display.value=event(cal.display.value)" id="col"> -->
+
+               
+                <input type="button" value="%" onclick="calci.display.value+='%'" id="col"> 
+                <input type="button" value="/" onclick="calci.display.value+='/'" id="col">
+                <br>
+
+                <br>
+                <input type="button" value="7" onclick="calci.display.value+='7'">
+                <input type="button" value="8" onclick="calci.display.value+='8'">
+                <input type="button" value="9" onclick="calci.display.value+='9'">
+                <input type="button" value="*" onclick="calci.display.value+='*'" id="col">
+                <!-- <input type="button" value="%" onclick="cal.display.value+='%'" id="col"> -->
+                <br>
+
+                <br>
+                <input type="button" value="4" onclick="calci.display.value+='4'">
+                <input type="button" value="5" onclick="calci.display.value+='5'">
+                <input type="button" value="6" onclick="calci.display.value+='6'">
+                <input type="button" value="-" onclick="calci.display.value+='-'" id="col">
+                <!-- <input type="button" value="*" onclick="cal.display.value+='*'" id="col"> -->
+                <br>
+
+                <br>
+                <input type="button" value="3" onclick="calci.display.value+='3'">
+                <input type="button" value="2" onclick="calci.display.value+='2'">
+                <input type="button" value="1" onclick="calci.display.value+='1'">
+                <input type="button" value="+" onclick="calci.display.value+='+'" id="col">
+                <!-- <input type="button" value="+" onclick="cal.display.value+='+'" id="col"> -->
+                <br>
+
+                <br>
+                <input type="button" value="0" onclick="calci.display.value+='0'">
+                <input type="button" value="." onclick="calci.display.value+='.'">
+                <!-- <input type="button" value="x^2" onclick="cal.display.value+='x^2'" id="col"> -->
+
+                <input type="button" value="AC" onclick="calci.display.value= ''" id ="del">
+                <input type="button" value="Enter" onclick="calci.display.value=eval(calci.display.value)" id="col">
+
+
+        </form>
+    </div>
+
+</body>
+</html>
